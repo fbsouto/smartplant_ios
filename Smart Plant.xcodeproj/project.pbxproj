@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4410773245280420069457C /* BalooBhaina2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E441076E245280420069457C /* BalooBhaina2-Regular.ttf */; };
+		E4410774245280420069457C /* BalooBhaina2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E441076F245280420069457C /* BalooBhaina2-ExtraBold.ttf */; };
+		E4410775245280420069457C /* BalooBhaina2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4410770245280420069457C /* BalooBhaina2-Bold.ttf */; };
+		E4410776245280420069457C /* BalooBhaina2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4410771245280420069457C /* BalooBhaina2-SemiBold.ttf */; };
+		E4410777245280420069457C /* BalooBhaina2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4410772245280420069457C /* BalooBhaina2-Medium.ttf */; };
+		E4434C43244B392D005367FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4434C42244B392D005367FC /* AppDelegate.swift */; };
+		E4434C45244B392D005367FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4434C44244B392D005367FC /* SceneDelegate.swift */; };
+		E4434C47244B392D005367FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4434C46244B392D005367FC /* ViewController.swift */; };
+		E4434C4A244B392D005367FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4434C48244B392D005367FC /* Main.storyboard */; };
+		E4434C4C244B3931005367FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4434C4B244B3931005367FC /* Assets.xcassets */; };
+		E4434C4F244B3931005367FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4434C4D244B3931005367FC /* LaunchScreen.storyboard */; };
+		E4434C58244B3DEE005367FC /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4434C56244B3DEE005367FC /* PlantTableViewCell.swift */; };
+		E4434C59244B3DEE005367FC /* PlantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4434C57244B3DEE005367FC /* PlantTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E441076E245280420069457C /* BalooBhaina2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhaina2-Regular.ttf"; sourceTree = "<group>"; };
+		E441076F245280420069457C /* BalooBhaina2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhaina2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E4410770245280420069457C /* BalooBhaina2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhaina2-Bold.ttf"; sourceTree = "<group>"; };
+		E4410771245280420069457C /* BalooBhaina2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhaina2-SemiBold.ttf"; sourceTree = "<group>"; };
+		E4410772245280420069457C /* BalooBhaina2-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhaina2-Medium.ttf"; sourceTree = "<group>"; };
+		E4434C3F244B392D005367FC /* Smart Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4434C42244B392D005367FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4434C44244B392D005367FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4434C46244B392D005367FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4434C49244B392D005367FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4434C4B244B3931005367FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4434C4E244B3931005367FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4434C50244B3931005367FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4434C56244B3DEE005367FC /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		E4434C57244B3DEE005367FC /* PlantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlantTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4434C3C244B392D005367FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E441076D245280340069457C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E4410770245280420069457C /* BalooBhaina2-Bold.ttf */,
+				E441076F245280420069457C /* BalooBhaina2-ExtraBold.ttf */,
+				E4410772245280420069457C /* BalooBhaina2-Medium.ttf */,
+				E441076E245280420069457C /* BalooBhaina2-Regular.ttf */,
+				E4410771245280420069457C /* BalooBhaina2-SemiBold.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E4434C36244B392D005367FC = {
+			isa = PBXGroup;
+			children = (
+				E4434C41244B392D005367FC /* Smart Plant */,
+				E4434C40244B392D005367FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4434C40244B392D005367FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4434C3F244B392D005367FC /* Smart Plant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4434C41244B392D005367FC /* Smart Plant */ = {
+			isa = PBXGroup;
+			children = (
+				E441076D245280340069457C /* Assets */,
+				E4434C42244B392D005367FC /* AppDelegate.swift */,
+				E4434C44244B392D005367FC /* SceneDelegate.swift */,
+				E4434C46244B392D005367FC /* ViewController.swift */,
+				E4434C48244B392D005367FC /* Main.storyboard */,
+				E4434C4B244B3931005367FC /* Assets.xcassets */,
+				E4434C4D244B3931005367FC /* LaunchScreen.storyboard */,
+				E4434C50244B3931005367FC /* Info.plist */,
+				E4434C56244B3DEE005367FC /* PlantTableViewCell.swift */,
+				E4434C57244B3DEE005367FC /* PlantTableViewCell.xib */,
+			);
+			path = "Smart Plant";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4434C3E244B392D005367FC /* Smart Plant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4434C53244B3931005367FC /* Build configuration list for PBXNativeTarget "Smart Plant" */;
+			buildPhases = (
+				E4434C3B244B392D005367FC /* Sources */,
+				E4434C3C244B392D005367FC /* Frameworks */,
+				E4434C3D244B392D005367FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Plant";
+			productName = "Smart Plant";
+			productReference = E4434C3F244B392D005367FC /* Smart Plant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4434C37244B392D005367FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Fellipe Souto";
+				TargetAttributes = {
+					E4434C3E244B392D005367FC = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = E4434C3A244B392D005367FC /* Build configuration list for PBXProject "Smart Plant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4434C36244B392D005367FC;
+			productRefGroup = E4434C40244B392D005367FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4434C3E244B392D005367FC /* Smart Plant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4434C3D244B392D005367FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4410777245280420069457C /* BalooBhaina2-Medium.ttf in Resources */,
+				E4410774245280420069457C /* BalooBhaina2-ExtraBold.ttf in Resources */,
+				E4434C4F244B3931005367FC /* LaunchScreen.storyboard in Resources */,
+				E4434C59244B3DEE005367FC /* PlantTableViewCell.xib in Resources */,
+				E4410776245280420069457C /* BalooBhaina2-SemiBold.ttf in Resources */,
+				E4410775245280420069457C /* BalooBhaina2-Bold.ttf in Resources */,
+				E4434C4C244B3931005367FC /* Assets.xcassets in Resources */,
+				E4434C4A244B392D005367FC /* Main.storyboard in Resources */,
+				E4410773245280420069457C /* BalooBhaina2-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4434C3B244B392D005367FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4434C47244B392D005367FC /* ViewController.swift in Sources */,
+				E4434C58244B3DEE005367FC /* PlantTableViewCell.swift in Sources */,
+				E4434C43244B392D005367FC /* AppDelegate.swift in Sources */,
+				E4434C45244B392D005367FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4434C48244B392D005367FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4434C49244B392D005367FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4434C4D244B3931005367FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4434C4E244B3931005367FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4434C51244B3931005367FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4434C52244B3931005367FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4434C54244B3931005367FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXER43UW8B;
+				INFOPLIST_FILE = "Smart Plant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Smart-Plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4434C55244B3931005367FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXER43UW8B;
+				INFOPLIST_FILE = "Smart Plant/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Smart-Plant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4434C3A244B392D005367FC /* Build configuration list for PBXProject "Smart Plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4434C51244B3931005367FC /* Debug */,
+				E4434C52244B3931005367FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4434C53244B3931005367FC /* Build configuration list for PBXNativeTarget "Smart Plant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4434C54244B3931005367FC /* Debug */,
+				E4434C55244B3931005367FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4434C37244B392D005367FC /* Project object */;
+}

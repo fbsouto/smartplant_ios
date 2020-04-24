@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BalooBhaina2-ExtraBold.ttf">
+            <string>BalooBhaina2-ExtraBold</string>
+        </array>
+        <array key="BalooBhaina2-Regular.ttf">
+            <string>BalooBhaina2-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Smart_Plant" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IbW-qs-ShW">
+                                <rect key="frame" x="0.0" y="236" width="414" height="230"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="st6-pb-HlU"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="xcU-4A-0af"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhU-Sp-jO4">
+                                <rect key="frame" x="153" y="808" width="123" height="30"/>
+                                <fontDescription key="fontDescription" name="BalooBhaina2-ExtraBold" family="Baloo Bhaina 2" pointSize="17"/>
+                                <state key="normal" title="Atualizar Dados"/>
+                                <connections>
+                                    <action selector="atualizarTabela" destination="BYZ-38-t0r" eventType="touchUpInside" id="6uB-BV-sd2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SmartPlant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB2-1Y-Yhm">
+                                <rect key="frame" x="63" y="126" width="288" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BalooBhaina2-ExtraBold" family="Baloo Bhaina 2" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNJ-07-TMw">
+                                <rect key="frame" x="20" y="504" width="374" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">O alecrim (Rosmarinus officinalis) é uma erva aromática comum na região do Mediterrâneo ocorrendo dos 0 a 1500 metros de altitude, preferencialmente em solos de origem calcária. Devido ao seu aroma característico, os romanos designavam-no como rosmarinus, que em latim significa orvalho do mar.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="BalooBhaina2-Regular" family="Baloo Bhaina 2" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RhU-Sp-jO4" firstAttribute="leading" secondItem="IbW-qs-ShW" secondAttribute="trailing" constant="-261" id="AIb-Lb-8of"/>
+                            <constraint firstItem="RhU-Sp-jO4" firstAttribute="top" secondItem="IbW-qs-ShW" secondAttribute="bottom" constant="342" id="H2E-Sp-ojf"/>
+                            <constraint firstItem="IbW-qs-ShW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KNz-PV-orN"/>
+                            <constraint firstItem="IbW-qs-ShW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="192" id="Uyk-Wg-c2D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IbW-qs-ShW" secondAttribute="trailing" id="nwD-pu-drJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RhU-Sp-jO4" secondAttribute="bottom" constant="24" id="o7W-IO-XJc"/>
+                            <constraint firstItem="RhU-Sp-jO4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="sP9-jG-s9S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IbW-qs-ShW" secondAttribute="bottom" constant="396" id="zy0-lE-fW1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="IbW-qs-ShW" id="9UW-mt-Wib"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
